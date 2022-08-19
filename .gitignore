@@ -1,0 +1,11 @@
+coverage/
+data/
+generated/
+test-results/report*
+test-results/traces/
+node_modules/
+.idea
+.next/
+.DS_STORE
+.env
+.env.local

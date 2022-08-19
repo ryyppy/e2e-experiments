@@ -1,0 +1,14 @@
+{
+  "default": {
+    "requireModule": ["@swc-node/register"],
+    "require": ["features/support/**/*.ts", "features/steps/**/*.ts"],
+    "format": [
+      "json:test-results/report.json",
+      "html:test-results/report.html",
+      "summary",
+      "progress-bar"
+    ],
+    "formatOptions": { "snippetInterface": "async-await" },
+    "publishQuiet": true
+  }
+}
